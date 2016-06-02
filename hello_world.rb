@@ -5,8 +5,9 @@ class HelloWorld
    def sayHi
       puts "Hello #{@name}!"
    end
+   hello = HelloWorld.new("World")
+   hello.sayHi
 end
 
-hello = HelloWorld.new("World")
-hello.sayHi
+
 
